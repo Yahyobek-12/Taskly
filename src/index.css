@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: .3s;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+#web-ul a.active {
+  background: #f3f4f6;
+}
+
+#home-start-img {
+  --animate-duration: 3s;
+}
